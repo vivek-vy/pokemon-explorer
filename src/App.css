@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ffcb05;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9f00;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+}
+
+input, select {
+  padding: 8px;
+  margin: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 200px;
+}
